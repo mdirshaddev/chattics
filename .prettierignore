@@ -1,0 +1,14 @@
+# pnpm
+.pnpm-store
+
+# pnpm lockfile
+pnpm-lock.yaml
+
+# deps
+node_modules
+
+# apps
+apps
+
+# packages
+packages

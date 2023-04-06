@@ -1,0 +1,30 @@
+{
+  "name": "chattics",
+  "private": true,
+  "scripts": {
+    "format": "prettier -c .",
+    "format:write": "prettier -w ."
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "express",
+    "socket.io"
+  ],
+  "author": {
+    "name": "Md Irshad",
+    "email": "mdirshaddev+github@gmail.com",
+    "url": "https://mdirshaddev.github.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/format": "^17.4.4",
+    "@commitlint/types": "^17.4.4",
+    "@types/node": "^18.15.11",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.3"
+  }
+}

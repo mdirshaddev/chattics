@@ -1,0 +1,16 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '🏗️👷 Checking your project before committing 👷‍♂️🏗️'
+echo 'please be patient, this may take a while...'
+
+echo 'Running Workspace Level prettier format'
+# Checking prettier formatting
+pnpm format ||
+(
+  echo '🔨❌ Yoo, you have a problem in your code. Check Prettier 🔨❌
+    Run pnpm run format:write, add changes and try commit again.';
+  false;
+)
+
+echo '🎉 No error found: committing this now.... ✨🚀🏄‍♂️🍻'
